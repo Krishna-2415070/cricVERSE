@@ -1,0 +1,241 @@
+body{
+    background-image: url("./assets/b10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+     font-family: 'Segoe UI', Arial, sans-serif;
+    /* font-family: 'Segoe UI', Arial, sans-serif; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 4px 4.5px 10px 3px rgba(0, 0, 0, 0.2); /* box-shadow: offset-x offset-y blur-radius spread radius color */
+    align-items: center;
+    position: relative;
+    height: 50px;
+    margin-bottom: 2.5rem;
+
+
+    
+    
+
+}
+nav>.cric>p{
+  color: white; 
+  font-weight:800;
+  color:rgb(193, 187, 187,1);
+  font-size: 1.9rem;
+}
+nav>.cric{
+  position: absolute;
+  left: 5rem;
+
+}
+nav>.navbar{
+  position: absolute;
+  left: 20rem;
+}
+nav>.navbar>ul>li>a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+
+  
+}
+
+nav>.navbar>ul>li>a:hover{
+  color: #162530;
+  border: 2px solid #fbfbf6;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 0);
+  transition: all 0.8s ease;
+  outline: none;
+
+}
+
+
+
+nav>.navbar>ul{
+    display: flex;
+    justify-content: center;
+
+}
+li {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    list-style: none;
+    font-size: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.greeting {
+    text-align: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+#welcome{
+  color: white;
+  font-weight: bold;
+  
+}
+.greeting>h3{
+  color:aliceblue;
+  font-size: normal;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  padding-top: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: max-content;
+  height: 157.5px;
+  margin: 0 auto;
+}
+
+/* Glass card styling */
+.glass-card {
+    transition: transform 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+  flex: 1 1 250px; 
+  max-width: 250px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 18px;
+  height: 23rem;
+  /* opacity: 0; */
+}
+/* .container .glass-card:nth-child(1) { animation-delay: 0.1s; }
+.container .glass-card:nth-child(2) { animation-delay: 0.3s; }
+.container .glass-card:nth-child(3) { animation-delay: 0.5s; }
+.container .glass-card:nth-child(4) { animation-delay: 0.7s; } */
+/* @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px); /* Only translateY, not scale */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Only translateY, not scale */
+    }
+} */
+
+/* Hover effects */
+.container .glass-card:hover {
+  /* animation: none; */
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px rgba(238, 233, 233, 0.689);
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Headings and text */
+.glass-card h2 {
+  margin-bottom: 10px;
+}
+
+.glass-card p {
+  font-size: 14px;
+}
+.button>a> button {
+  font-size: 1rem;
+  font-weight: 400;
+background-color: yellow;
+cursor: pointer;
+border-radius: 40px;
+height: 3rem;
+width: 10rem;
+margin-bottom: 30px;
+backdrop-filter: blur(10px);
+transition: all 0.4s ease;
+
+
+}
+#welcome{
+  margin-bottom: 0%;
+  font-size: 3rem;
+}
+.blur>.greeting>p{
+  margin-top: 0%;
+  margin-bottom: 1rem;
+}
+
+.button>a>:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px rgba(238, 230, 230, 0.1);
+  border-color: rgba(19, 18, 18, 1);
+  background: rgba(255, 255, 0, 0.941);
+}
+/* .blur{ */
+  /*backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.4);
+    height: 40rem;
+    margin-top: 2rem;
+    width: 95vw;
+    margin: 0 auto;*/
+.container .glass-card i {
+  font-size: 5rem !important;
+  line-height: 1.1;
+}
+.glass-card i {
+  font-size: 5rem !important;
+  width: 5rem !important;
+  height: 5rem !important;
+  line-height: 1.1;
+  display: inline-block;
+}
+#live-circle-icon{
+  color: red;
+  
+  border-radius: 50%;
+  
+}
+#play-zone-icon{
+  color: greenyellow;
+}
+#cricket-legend-icon{
+  color: lch(97.14% 96.91 102.85);
+}
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Segoe UI', Arial, sans-serif; */
+    /* color: #ffe066; */
+    /* letter-spacing: 1px; */
+}
+.about-tagline {
+    /* font-size: 1.3rem; */
+    /* color: #b2f7ef; */
+    /* margin-bottom: 1.2rem; */
+}
+.fa-globe{
+  color:aquamarine;
+}
+
+
+
+
+
+
+
+
+

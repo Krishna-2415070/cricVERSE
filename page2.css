@@ -1,5 +1,5 @@
 body{
-    background-image: url("./WhatsApp Image 2025-06-18 at 23.00.52_be8e2490.jpg");
+    background-image: url("./b7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -8,64 +8,87 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    
+         font-family: 'Segoe UI', Arial, sans-serif;
+
 
 }
 nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     display: flex;
-    flex-direction: horizontal; 
-    backdrop-filter: blur(30px);
+    justify-content: space-between;
+    backdrop-filter: blur(100px);
     border-radius: 30px;
     border: 1px solid rgba(255,255,255,0.7);
     box-shadow: 4px 4.5px 10px 3px rgba(0, 0, 0, 0.2); /* box-shadow: offset-x offset-y blur-radius spread radius color */
+    height: 5rem;
     align-items: center;
-    gap: 15rem;
-    height: 3rem;
-    z-index: 1000;
-    
-    
-}
-nav>ul{
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    padding-left: 2rem;
+    position: relative;
+    height: 50px;
+    margin-bottom: 2.5rem;
+
 
     
-}
-nav>ul>li{
-    width: 20%;
-    list-style: none;
-}
-nav>ul>li>a{
-    color:aliceblue;
-    text-decoration: none;
-    font-size: 2rem;
+    
 
 }
 nav>.cric>p{
-    padding-left: 6rem;
+  color: white; 
+  font-weight:800;
+  color:rgb(193, 187, 187,1);
+  font-size: 1.9rem;
+}
+nav>.cric{
+  position: absolute;
+  left: 5rem;
+
+}
+nav>.navbar{
+  position: absolute;
+  left: 20rem;
+}
+nav>.navbar>ul>li>a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+
+  
+}
+
+nav>.navbar>ul>li>a:hover{
+  color: #162530;
+  border: 2px solid #fbfbf6;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 0);
+  transition: all 0.8s ease;
+  outline: none;
+
+}
+
+
+
+nav>.navbar>ul{
+    display: flex;
+    justify-content: center;
+
+}
+li {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    list-style: none;
     font-size: 2rem;
+}
+a{
     color: white;
-    font-weight: 800;
+    text-decoration: none;
 }
-nav>ul>li>.target{
-    padding-left: 3.5rem;
-
-}
-
 .center-greeting {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5rem;
+    height: 4.7rem;
     width: 35vw;
     margin: 0 auto; /* the auto value will set the left and right margins to automatically take up the remaining space and to center it*/
-    margin-top: 6rem;
+    margin-top: 2rem;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 40px;
     border: 1px solid rgba(255,255,255,0.7);
@@ -75,6 +98,7 @@ nav>ul>li>.target{
     font-weight: bold;
     color: whitesmoke;
     z-index: 1000;
+    color:aquamarine;
 }
 .container{
     display: flex;
@@ -87,7 +111,7 @@ nav>ul>li>.target{
     height: 28rem;
     width: 20rem;
     border: 1px solid white;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(100px);
     box-shadow: 0 2px 10px 4px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     display: flex;
@@ -105,7 +129,7 @@ Any remaining children are spaced evenly between them, with equal space between 
     position: relative;
     margin: 0;
 }
-.container>.glass-card:hover{
+.container>.glass-card:hover{ 
  transform: scale(1.1);  
  
  box-shadow: 0 10px 40px rgba(238, 233, 233, 0.689);
@@ -131,29 +155,57 @@ font-size: 1.5rem;
 font-weight: 400;
 transition: all 0.4s ease;
 bottom: 3rem;
-position: absolute;
-left: 50%;
-transform: translate(-50%);/*shifts the button to negative x direction by 50% of its width*/
+margin: 0 auto;
+/* position: absolute; */
+
+/* transform: translateX(-50%);shifts the button to negative x direction by 50% of its width */
 
 }
-.container>.glass-card>a>.button:hover{
+.container>.glass-card>a>button:hover{
     cursor: pointer;
-    transform: translate(-50%) scale(1.1);
+    transform: scale(1.1);
 }
 .container>.glass-card>p{
     color: white;
     font-size: 2rem;
     font-weight: 800;
-    position: absolute;
-    top: 257px;
-    left: 50%;
-    transform: translate(-50%);
-    margin: 0;
+    /* position: absolute */
+    /* top: 257px; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    margin: 0 auto;
+    color: white;
 
 }
-.container>.glass-card>a{
-    
-    
+.fa-globe{
+    color:aquamarine;
+}
+#play-zone-img{
+    height: 53%;
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#hall-of-fame-img{
+    height: 45%;
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+
+}
+#live-img{
+    height: 50%;
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#banrakash{
+     height: 43%;
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
 }
 
 

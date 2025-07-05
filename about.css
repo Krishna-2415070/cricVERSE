@@ -1,5 +1,5 @@
 body {
-    background-image: url('./g2\ \(1\).jpg');
+    background-image: url('./g3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -155,4 +155,7 @@ a{
         min-width: 90vw;
         max-width: 98vw;
     }
+}
+.fa-globe{
+    color:aquamarine;
 }

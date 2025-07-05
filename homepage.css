@@ -1,5 +1,5 @@
 body{
-    background-image: url("./b10.jpg");
+    background-image: url("./assets/b10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -98,7 +98,7 @@ a{
 .container {
   display: flex;
   gap: 10px;
-  padding-top: 0px;
+  padding-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
   width: max-content;
@@ -108,7 +108,7 @@ a{
 
 /* Glass card styling */
 .glass-card {
-    transition: transform 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+    transition: transform 0.4s ease;
   flex: 1 1 250px; 
   max-width: 250px;
   background: rgba(255, 255, 255, 0.1);
@@ -133,12 +133,11 @@ a{
     from {
         opacity: 0;
         transform: translateY(40px); /* Only translateY, not scale */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0); /* Only translateY, not scale */
-    }
-} */
+    
+    /* to { */
+        /* opacity: 1; */
+        /* transform: translateY(0); Only translateY, not scale */
+    
 
 /* Hover effects */
 .container .glass-card:hover {
@@ -217,16 +216,15 @@ transition: all 0.4s ease;
 #cricket-legend-icon{
   color: lch(97.14% 96.91 102.85);
 }
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 { */
     /* font-family: 'Segoe UI', Arial, sans-serif; */
     /* color: #ffe066; */
     /* letter-spacing: 1px; */
-}
-.about-tagline {
+/* .about-tagline { */
     /* font-size: 1.3rem; */
     /* color: #b2f7ef; */
     /* margin-bottom: 1.2rem; */
-}
+
 .fa-globe{
   color:aquamarine;
 }

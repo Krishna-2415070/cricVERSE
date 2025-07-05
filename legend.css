@@ -1,5 +1,5 @@
 body{
-    background-image: url("./g2 (4).jpg");
+    background-image: url("./g2\ \(4\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -170,7 +170,7 @@ a{
     top: 60%;
 }
 .outercard>ul>li{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .outercard{
     background: black;
@@ -184,14 +184,14 @@ a{
     color:aqua;
 }
 .outercard>ul>li{
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.6rem;
     color: white;
     margin-right: 14px;
 }
-/* .outercard>ul>li::marker{ */
-    /* color: greenyellow; */
-    /* font-size: 28px; */
-/* } */
+.outercard>ul>li::marker{
+    color: greenyellow;
+    font-size: 28px;
+}
 .innercard>h5{
     font-size: 0.9rem;
     position: absolute;
@@ -251,6 +251,12 @@ width: 27%;
 }
 .outercard li {
     text-align: left;
+}
+.outercard h1{
+    text-align: center;
+}
+.fa-globe{
+    color:aquamarine;
 }
 
 
